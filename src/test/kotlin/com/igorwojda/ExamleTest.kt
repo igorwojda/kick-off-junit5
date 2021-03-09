@@ -96,7 +96,7 @@ class ExampleTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = arrayOf("Android's Cool!", "JUnit 5 as well", "Acknowledgement"))
+    @ValueSource(strings = ["Android's Cool!", "JUnit 5 as well", "Acknowledgement"])
     internal fun parameterizedValueTest(value: String) {
         assertAll(
             Executable { assertNotNull(value) },
