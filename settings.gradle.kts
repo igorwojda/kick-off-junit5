@@ -1,1 +1,1 @@
-rootProject.name = "test"
+rootProject.name = "kick-off-junit5"
